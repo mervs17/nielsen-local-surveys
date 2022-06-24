@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Preguntas Generales Frecuentes | Nielsen</title>
+
+
+   <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+   <main>
+      <header>
+         <div class="lg:max-w-screen-xl container mx-auto relative">
+            <nav class="px-4 py-8">
+               <div class="flex flex-wrap items-center">
+                  <div class="md:w-9/12 w-3/6">
+                     <div class="flex items-center">
+                        <a href="./index.html" class="pr-5">
+                           <img src="../images/nielsen.png" alt="Nielsen" />
+                        </a>
+
+                        <ul class="md:flex hidden items-center md:text-base text-sm text-nielsen-blue">
+                           <li class="md:pl-4 md:pr-5 lg:pl-5 lg:pr-8">
+                              <a href="./index.html"
+                                 class="transition duration-300 hover:text-nielsen-purple">Responder</a>
+                           </li>
+                           <li class="md:pr-5 lg:pr-8">
+                              <a href="./como-responder-la-encuesta.html"
+                                 class="transition duration-300 hover:text-nielsen-purple">Cómo responder la
+                                 encuesta</a>
+                           </li>
+                           <li>
+                              <a href="./responder-faqs.html" class="text-nielsen-purple" aria-current="page">Preguntas
+                                 generales frecuentes</a>
+                           </li>
+                        </ul>
+                     </div>
+
+                  </div>
+
+                  <div class="md:w-3/12 w-3/6">
+                     <div class="flex items-center justify-end relative">
+
+                        <button id="translate"
+                           class="inline-block bg-[#dcdee6] rounded-[20px] transition duration-200 hover:text-white hover:bg-nielsen-purple mr-5 w-36 py-2"
+                           type="button">Español <img src="../images/arrow.png" class="ml-1 inline-block" alt="Arrow">
+                        </button>
+
+                        <div
+                           class="opacity-0 z-10 pointer-events-none absolute top-10 w-40 py-4 px-5 bg-white shadow-lg"
+                           id="show-translate">
+                           <ul>
+                              <li class="mb-3">
+                                 <a class="text-nielsen-blue hover:text-nielsen-purple"
+                                    href="../survey-faqs.html">English</a>
+                              </li>
+                              <li>
+                                 <a class=" text-nielsen-purple" href="./responder-faqs.html">Español</a>
+                              </li>
+                           </ul>
+                        </div>
+
+                        <button id="triggerMenu" aria-expanded="false" type="button"
+                           class="md:hidden block text-white bg-nielsen-purple hover:bg-nielsen-blue focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-4 py-2.5">
+                           <span class="sr-only">Open main menu</span>
+                           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd"
+                                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                 clip-rule="evenodd"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <div id="menuMobile" class="hidden absolute left-0 right-0">
+               <ul class="text-sm font-medium text-nielsen-blue bg-white border border-gray-200">
+                  <li class="py-2 px-4 w-full rounded-t-lg border-b border-gray-200"><a href="./index.html"
+                        class="transition duration-300 hover:text-nielsen-purple">Responder</a>
+                  </li>
+                  <li class="py-2 px-4 w-full border-b border-gray-200"><a href="./como-responder-la-encuesta.html"
+                        class="transition duration-300 hover:text-nielsen-purple">Cómo responder la encuesta</a></li>
+                  <li class="py-2 px-4 w-full border-b border-gray-200"> <a href="./responder-faqs.html"
+                        class="text-nielsen-purple" aria-current="page">Preguntas generales frecuentes</a></li>
+               </ul>
+            </div>
+         </div>
+      </header>
+
+
+      <section class="banner bg-header-general">
+         <div class="lg:max-w-screen-xl container mx-auto">
+            <div class="md:max-w-screen-md md:mr-auto md:ml-0">
+               <div class="md:text-left text-center text-white">
+                  <h1
+                     class="mb-4 font-bold xl:text-[76px] xl:leading-[82px] lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
+                     Tu participación es importante.</h1>
+                  <p class="font-medium lg:text-[38px] lg:leading-[80px] md:text-4xl sm:text-3xl text-2xl">
+                     Sea una voz para su comunidad.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="lg:px-16 lg:py-16 md:px-12 py-12 px-8">
+         <div class="lg:max-w-screen-xl container mx-auto">
+            <div class="md:flex md:flex-wrap">
+               <div class="md:w-8/12 w-full lg:pr-16 md:pr-10 md:mb-0 mb-8">
+                  <div class="md:mb-10 mb-8">
+                     <h2
+                        class="mb-5 font-bold text-nielsen-orange lg:text-[32px] lg:leading-[30px] md:text-3xl text-2xl">
+                        Preguntas Generales Frecuentes</h2>
+                  </div>
+                  <div class="accordion">
+                     <h3 id="accordion-heading-1">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-1">
+                           ¿Quién es Nielsen?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-1" class="hidden" aria-labelledby="accordion-heading-1">
+                        <div class="">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Nielsen es una compañía con más de
+                              40 años de trayectoria y ahora forma parte de The Nielsen Company. Nielsen realiza más de
+                              210,000 encuestas al año en los Estados Unidos, en más de 100 áreas metropolitanas locales
+                              como la suya. Nielsen es una compañía de estudios profesional que no tiene la intención de
+                              venderle nada. Su información y sus respuestas se utilizarán de acuerdo con la Declaración
+                              de Privacidad de las Encuestas de Nielsen.
+                           </p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-2">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-2">
+                           ¿Qué son estudios de mercado?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-2" class="hidden" aria-labelledby="accordion-heading-2">
+                        <div class="mb-5">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Miles de compañías utilizan el
+                              estudio de mercado cada año para entender qué productos y servicios compran los
+                              consumidores, por qué compran estos productos y servicios, y qué opinan sobre las
+                              distintas compañías y productos.
+                           </p>
+
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Con la información obtenida mediante
+                              estudios de mercado, las compañías deciden qué productos y servicios deben ofrecer, cómo
+                              llegar a posibles consumidores y dónde ofrecer sus productos y servicios. Los consumidores
+                              se benefician porque los productos a su disposición se vuelven más personalizados y
+                              útiles.</p>
+
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Las encuestas de Nielsen miden las
+                              opiniones y comportamientos de los consumidores. Esto comienza con la selección de una
+                              sección mixta de hogares que sea representativa de los miles de consumidores que viven en
+                              la misma área. No es posible encuestar a todas las personas de un región, por eso los
+                              investigadores toman un enfoque científico al seleccionar los pocos hogares que van a
+                              servir para representar a muchas otras personas y hogares. Los hogares seleccionados nunca
+                              pueden sustituirse por otros hogares. Por ello, cuando un consumidor se niega a responder
+                              la encuesta, la firma de estudios pierde a ese representante junto con todos los
+                              individuos/hogares a los que el consumidor representa.</p>
+
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Nielsen tiene la esperanza de que al
+                              comprender un poco de qué modo el estudio ayuda a los consumidores, los hogares
+                              contactados estén dispuestos a dedicar tiempo a escuchar la encuesta y responder las
+                              preguntas.</p>
+
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Recuerde: ¡su opinión cuenta!</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-3">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-3">
+                           ¿Por qué se comunicaron conmigo?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-3" class="hidden" aria-labelledby="accordion-heading-3">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Se seleccionaron hogares al azar para que
+                              sean la "voz" de otros hogares de su zona. Al participar en nuestro estudio, usted tiene
+                              la oportunidad de decirle a las empresas locales cuáles son sus opciones y preferencias en
+                              servicios y productos de consumo para que estas puedan brindarle un mejor servicio. Es por
+                              esto que su participación en la Encuesta a los Consumidores de Nielsen es muy importante.
+                              Sus respuestas serán contadas por las de muchas personas que no fueron invitadas a
+                              participar en la encuesta.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-4">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-4">
+                           ¿Qué venden?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-4" class="hidden" aria-labelledby="accordion-heading-4">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Nielsen NO es una compañía de
+                              telemarketing. No estamos intentando venderle nada. Somos una compañía de estudios de
+                              mercado qué realiza estudios de mercado en su zona geográfica. Nuestro objetivo es que
+                              usted participe en la encuesta, no pretendemos venderle nada. Su información y sus
+                              respuestas se utilizarán de acuerdo con la Política de Privacidad de las Encuestas de
+                              Nielsen</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-5">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-5">
+                           ¿Cómo puedo saber qué se trata de un estudio al contestar el teléfono?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-5" class="hidden" aria-labelledby="accordion-heading-5">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Muchos vendedores telefónicos inician sus
+                              llamadas haciendo preguntas, y luego empiezan a vender el servicio o producto. Una
+                              compañía legítima de estudios de mercado siempre empieza por identificarse y explicar el
+                              motivo de la llamada. Si desea saber desde el comienzo de una llamada si está hablando con
+                              una compañía de venta telefónica o con una compañía de estudios, interrumpa a la persona
+                              que llama y pregúntele el motivo de la llamada. Pídale que le explique a qué se dedica la
+                              compañía, y qué espera de la llamada.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-6">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-6">
+                           ¿Por qué me llaman si mi nombre figura en el registro nacional de "No Llamar"?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-6" class="hidden" aria-labelledby="accordion-heading-6">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Como compañía de estudios de mercado, no
+                              estamos clasificados como compañía de venta telefónica, y estamos exentos de las normas de
+                              la FTC con respecto a acatar el Registro Nacional de "No llamar". Valoramos su privacidad
+                              y su tiempo y esperamos que elija responder nuestra encuesta.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-7">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-7">¿Por qué el entrevistador que me llamó
+                           no puede eliminar mi nombre de la lista?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-7" class="hidden" aria-labelledby="accordion-heading-7">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">
+                              Por razones de seguridad de la información, el entrevistador no tiene acceso a la
+                              información en el sistema ni la capacidad de cambiarla. Por ello le pedimos que llame al
+                              <strong>1-866-611-1213</strong>, <a
+                                 class="text-nielsen-links transition duration-300 hover:text-nielsen-orange hover:underline"
+                                 href="mailto:surveys@nielsenlocalsurveys.com">envíenos un correo electrónico</a> o
+                              envíe su información <a
+                                 class="text-nielsen-links transition duration-300 hover:text-nielsen-orange hover:underline"
+                                 href="https://www.nielsen.com/us/en/legal/" target="_blank"
+                                 rel="noopener noreferrer">aquí</a> para comprobar que es realmente usted quien nos está
+                              solicitando ser eliminado de nuestra lista. Apreciamos su cooperación y paciencia al
+                              esperar que su solicitud se cumpla.
+                           </p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-8">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-8">¿Cómo obtuvieron mi información de
+                           contacto?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-8" class="hidden" aria-labelledby="accordion-heading-8">
+                        <div class="mb-5">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Utilizamos distintos métodos para
+                              diferentes estudios. En algunos casos seleccionamos a los encuestados al azar entre un
+                              grupo de direcciones de toda su zona. En otros casos, seleccionamos al azar los números de
+                              teléfono de su zona y los complementamos marcando otros números de teléfono de su zona
+                              (que no están en la lista). Nos sería imposible responder una encuesta por cada persona de
+                              su zona, por lo que los investigadores toman un enfoque científico para seleccionar los
+                              hogares que representarán a muchas personas. Por razones estadísticas, los hogares
+                              seleccionados nunca pueden sustituirse por otros hogares, así que cuando un consumidor se
+                              niega a responder la encuesta, la firma de estudios pierde su representación. Es por ello
+                              que sus respuestas a la encuesta son tan importantes y harán una diferencia para toda la
+                              gente de su geografía local.</p>
+
+                           <p class="text-sm leading-[22px] text-nielsen-blue">
+                              Tenga en cuenta que podemos usar llamadas automatizadas, marcadores automáticos o mensajes
+                              pregrabados para ponernos en contacto con usted. Si desea que su nombre sea eliminado de
+                              la lista de contactos de Nielsen, llame al 1-866-611-1213,
+                              <a class="text-nielsen-links transition duration-300 hover:text-nielsen-orange hover:underline"
+                                 href="mailto:surveys@nielsenlocalsurveys.com">envíenos un correo electrónico</a>, o
+                              envíe su información
+                              <a class="text-nielsen-links transition duration-300 hover:text-nielsen-orange hover:underline"
+                                 href="https://www.nielsen.com/us/en/legal/" target="_blank"
+                                 rel="noopener noreferrer">aquí</a>. Nuestro sistema puede tardar unos días en
+                              actualizarse al procesar de su pedido.
+                           </p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-9">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-9">¿Por qué debería responder la encuesta?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-9" class="hidden" aria-labelledby="accordion-heading-9">
+                        <div class="mb-5">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">¡Su opinión cuenta! Usted tiene la
+                              oportunidad de ser "la voz" de muchos hogares en su área local. Los minoristas y las
+                              compañías de medios de comunicación quieren saber cómo pueden brindarle un mejor servicio.
+                              Usted puede ayudar participando en la encuesta para que los comercios locales entiendan
+                              sus opciones cotidianas y preferencias en cuanto a servicios y productos de consumo.</p>
+
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Los resultados de estudios de
+                              estudios de mercado de mercado como este son utilizados por miles de empresas cada año
+                              para que les ayude a entender qué compran los consumidores, por qué compran ciertos
+                              productos y servicios, y qué piensan de las diferentes empresas y productos. Con esta
+                              información, las empresas deciden qué productos/servicios deben ofrecer y cómo llegar a
+                              los posibles consumidores. Las personas como usted se benefician porque los productos a su
+                              disposición se vuelven más personalizados y útiles.</p>
+
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Como no es posible encuestar a cada
+                              persona de una zona geográfica, los investigadores toman un enfoque científico para
+                              seleccionar los hogares que representarán a muchas personas de la misma zona. Aquellos
+                              hogares seleccionados jamás podrán ser sustituidos por otros hogares, así que cuando un
+                              consumidor se rehúsa a completar la encuesta, la compañía de estudios pierde a ese
+                              representante de ellos que comparten hábitos similares. Es por eso que es tan importante
+                              que usted responda esta encuesta. Recuerde que los estudios, como este, ayudan a respaldar
+                              la economía local, que beneficia a todo el mundo.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-10">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-10">¿Qué Miembro de mi Hogar Debería
+                           Responder la encuesta de consumidores de Nielsen?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-10" class="hidden" aria-labelledby="accordion-heading-10">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Consulte las instrucciones específicas en
+                              la carta que le enviamos con respecto a QUÉ PERSONA en su hogar debería completar la
+                              encuesta. Algunas de las encuestas están diseñadas para miembros específicos de su hogar.
+                              Esto asegura que todos los grupos de edades estén representados en nuestro estudio.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-11">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-11">¿Por qué preguntan por la persona cuyo
+                           Cumpleaños sea el más reciente o por una persona específica para que responda la encuesta?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-11" class="hidden" aria-labelledby="accordion-heading-11">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Muchas compañías de estudios utilizan
+                              este método para seleccionar a sus participantes. Los cumpleaños están distribuidos al
+                              azar entre las poblaciones de consumidores. Al preguntar cada vez por la última persona
+                              que cumplió años, Nielsen obtiene una muestra bastante representativa de edades, sexos,
+                              educación, ingresos, etc., para que todos los tipos de personas y hogares estén bien
+                              representados en la encuesta. En algunos casos podemos pedir que un grupo demográfico
+                              específico o alguien de un determinado grupo de edad responda la encuesta. Por ejemplo, en
+                              algunas zonas podemos pedir que responda la encuesta un hombre de 18 a 34 años de edad.
+                              Podemos hacer esto cuando nos falta representación de un grupo en particular y buscamos
+                              redondear la representación. Consulte la carta que le enviamos para ver las instrucciones
+                              específicas.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-12">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-12">¿Qué hará Nielsen con mis respuestas y
+                           para qué usarán los resultados del estudio?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-12" class="hidden" aria-labelledby="accordion-heading-12">
+                        <div class="mb-5">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Sus respuestas son de vital
+                              importancia para el estudio, ya que usted va a representar a muchas otras personas de su
+                              zona. Una vez que un hogar ha sido seleccionado para el estudio, por razones estadísticas,
+                              otro hogar no puede sustituirlo si el primer hogar decide no participar. Si no recibimos
+                              sus respuestas, no contamos con las respuestas de muchas otras familias similares a la
+                              suya.</p>
+
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Normalmente, sus respuestas se agruparán
+                              con las de todos los demás participantes de la encuesta y no se analizarán
+                              individualmente. Se utilizarán para ayudar a las empresas a determinar cómo servir mejor a
+                              sus clientes. Toda la información que usted nos dé y que recopilemos acerca de usted se
+                              usará solamente de acuerdo con la Declaración de Privacidad de las Encuestas de Nielsen.
+                           </p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-13">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-13">¿Son confidenciales mis respuestas?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-13" class="hidden" aria-labelledby="accordion-heading-13">
+                        <div class="mb-5">
+                           <p class="mb-3 text-sm leading-[22px] text-nielsen-blue">Sí. Sus respuestas se mantendrán en
+                              absoluta reserva y solo se revelarán públicamente junto con las de otros participantes de
+                              la encuesta; nunca se revelarán individualmente. Proteger su privacidad es una de nuestras
+                              prioridades más importantes. Toda la información que nos dé y que recopilemos acerca de
+                              usted solo se usará de acuerdo con la Declaración de Privacidad de las Encuestas de
+                              Nielsen. Nielsen nunca entregará su nombre o dirección a ninguna compañía que quiera
+                              venderle productos o servicios.</p>
+
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Para obtener más información acerca de
+                              nuestra política de privacidad, <a class="text-nielsen-links hover-links"
+                                 href="./politica-de-privacidad.html">haga
+                                 clic aquí</a>.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-14">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-14">¿Por qué hacen preguntas personales?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-14" class="hidden" aria-labelledby="accordion-heading-14">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Las preguntas personales que hacemos
+                              ayudan a darle a las tiendas minoristas y medios de comunicación locales una idea de los
+                              tipos de servicios que atraen a las distintas personas. Toda la información que usted nos
+                              dé y que recopilemos acerca de usted solo se usará de acuerdo con la Política de
+                              Privacidad de las Encuestas de Nielsen. Proteger su privacidad es una de nuestras
+                              principales prioridades. Nunca entregaremos su nombre o dirección a ninguna compañía que
+                              quiera venderle productos o servicios.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-15">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-15">¿Por qué recibí un obsequio de dinero
+                           en efectivo?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-15" class="hidden" aria-labelledby="accordion-heading-15">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">El dinero que recibió es solo una pequeña
+                              muestra de nuestro agradecimiento por su participación en la Encuesta de Consumidores de
+                              Nielsen.</p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+
+                     <h3 id="accordion-heading-16">
+                        <button type="button"
+                           class="flex items-baseline text-left w-full font-bold text-nielsen-orange md:text-lg md:leading-[26px] text-base"
+                           aria-expanded="true" aria-controls="accordion-body-17">¿Qué debo hacer si tengo preguntas que
+                           no se responden aquí?
+                        </button>
+                     </h3>
+                     <div id="accordion-body-16" class="hidden" aria-labelledby="accordion-heading-16">
+                        <div class="mb-5">
+                           <p class="text-sm leading-[22px] text-nielsen-blue">Si tiene alguna pregunta que le hayamos
+                              respondido aquí, llámenos al 1-866-611-1213, o envíenos un correo electrónico a
+                              <a class="text-nielsen-links transition duration-300 hover:text-nielsen-orange hover:underline"
+                                 href="mailto:surveys@nielsenlocalsurveys.com">surveys@nielsenlocalsurveys.com</a>.
+                           </p>
+                        </div>
+                     </div>
+
+                     <hr class="my-5 border-t-2 border-[#dcdee6]">
+                  </div>
+               </div>
+
+               <div class="md:w-4/12 w-full lg:pl-5">
+                  <div class="bg-[#f7f7f9] rounded-[10px] p-10 ">
+                     <h3 class="mb-1 font-bold md:text-lg text-base text-nielsen-blue">Cómo responder la encuesta
+                     </h3>
+                     <h4 class="mb-5 text-sm text-nielsen-orange">Información de Contacto de Nielsen</h4>
+
+                     <p class="mb-4 text-sm leading-[22px] text-nielsen-blue"><span class="font-semibold">Llámenos al
+                           número gratuito:</span> <br>
+                        1-866-611-1213
+                     </p>
+
+                     <p class="text-sm leading-[22px] text-nielsen-blue">
+                        <span class="font-semibold"> O envíenos un correo electrónico a:</span> <br> <a
+                           href="mailto:surveys@nielsenlocalsurveys.com"
+                           class="hover-links">Surveys@NielsenLocalSurveys.com</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="back-to-top">
+         <svg xmlns="http://www.w3.org/2000/svg" class="h- w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+         </svg>
+      </div>
+   </main>
+
+   <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+   <script>
+      // create an array of objects with the id, trigger element (eg. button), and the content element
+      const accordionItems = [
+         {
+            id: 'accordion-heading-1',
+            triggerEl: document.querySelector('#accordion-heading-1'),
+            targetEl: document.querySelector('#accordion-body-1'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-2',
+            triggerEl: document.querySelector('#accordion-heading-2'),
+            targetEl: document.querySelector('#accordion-body-2'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-3',
+            triggerEl: document.querySelector('#accordion-heading-3'),
+            targetEl: document.querySelector('#accordion-body-3'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-4',
+            triggerEl: document.querySelector('#accordion-heading-4'),
+            targetEl: document.querySelector('#accordion-body-4'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-5',
+            triggerEl: document.querySelector('#accordion-heading-5'),
+            targetEl: document.querySelector('#accordion-body-5'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-6',
+            triggerEl: document.querySelector('#accordion-heading-6'),
+            targetEl: document.querySelector('#accordion-body-6'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-7',
+            triggerEl: document.querySelector('#accordion-heading-7'),
+            targetEl: document.querySelector('#accordion-body-7'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-8',
+            triggerEl: document.querySelector('#accordion-heading-8'),
+            targetEl: document.querySelector('#accordion-body-8'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-9',
+            triggerEl: document.querySelector('#accordion-heading-9'),
+            targetEl: document.querySelector('#accordion-body-9'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-10',
+            triggerEl: document.querySelector('#accordion-heading-10'),
+            targetEl: document.querySelector('#accordion-body-10'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-11',
+            triggerEl: document.querySelector('#accordion-heading-11'),
+            targetEl: document.querySelector('#accordion-body-11'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-12',
+            triggerEl: document.querySelector('#accordion-heading-12'),
+            targetEl: document.querySelector('#accordion-body-12'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-13',
+            triggerEl: document.querySelector('#accordion-heading-13'),
+            targetEl: document.querySelector('#accordion-body-13'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-14',
+            triggerEl: document.querySelector('#accordion-heading-14'),
+            targetEl: document.querySelector('#accordion-body-14'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-15',
+            triggerEl: document.querySelector('#accordion-heading-15'),
+            targetEl: document.querySelector('#accordion-body-15'),
+            active: false
+         },
+         {
+            id: 'accordion-heading-16',
+            triggerEl: document.querySelector('#accordion-heading-16'),
+            targetEl: document.querySelector('#accordion-body-16'),
+            active: false
+         }
+      ];
+
+      //accordionItems.forEach((item => console.log(item.id)));
+
+
+      // options with default values
+      const optionAcc = {
+         alwaysOpen: true,
+         activeClasses: 'bg-white',
+         inactiveClasses: 'bg-white',
+         onOpen: (item) => {
+            console.log('accordion item has been shown');
+            console.log(item);
+         },
+         onClose: (item) => {
+            console.log('accordion item has been hidden');
+            console.log(item);
+         },
+         onToggle: (item) => {
+            console.log('accordion item has been toggled');
+            console.log(item);
+         },
+      };
+
+      /*
+      * accordionItems: array of accordion item objects
+      * options: optional
+      */
+      const accordion = new Accordion(accordionItems, optionAcc);
+
+      // open accordion item based on id
+      //accordion.open('accordion-example-heading-2');
+
+      // close accordion item based on id
+      //accordion.close('accordion-example-heading-2');
+
+      // toggle visibility of item based on id
+      //accordion.toggle('accordion-example-heading-3');
+
+   </script>
+
+
+</body>
+
+</html>
